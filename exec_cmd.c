@@ -4,7 +4,7 @@
  * executes a command, and wait for the child process
  * to update its status
  * @c: command
- * @cmd: vector array of pointers to commands
+ * @command: vector array of pointers to commands
  *
  * Return: void
  */

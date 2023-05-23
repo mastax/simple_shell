@@ -9,7 +9,7 @@
  * value > that 0 if (first > second)
  * value = 0 if (first == second)
  */
-int_strncmp(const char *first, const char *second, int n)
+int _strncmp(const char *first, const char *second, int n)
 {
 	int idx;
 

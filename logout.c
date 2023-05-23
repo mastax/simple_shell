@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  * logout - Frees the buffer and exits the program.
- * @cmd: Array of command line arguments.
+ * @command: Array of command line arguments.
  * @b: Line buffer created in main.
  *
  * Return: void

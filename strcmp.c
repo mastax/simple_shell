@@ -17,7 +17,7 @@ int _strcmp(char *s1, char *s2)
 
 	while (*s1 && *s2)
 	{
-		tot = *s1 - s2;
+		tot = *s1 - *s2;
 
 		if (tot != 0)
 			break;

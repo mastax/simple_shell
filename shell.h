@@ -41,7 +41,7 @@ void handle_signal(int n);
 /* Helper_FUNCTIONS */
 
 int command_type(char **command, char *b);
-int free_cmds(char **m);
+void free_cmds(char **m);
 
 /* Environment */
 

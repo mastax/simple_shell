@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * check_str - searches a string for a specific character
+ * check_string - searches a string for a specific character
  * @str: string to examine
  * @chr: character to look for
  *

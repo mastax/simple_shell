@@ -1,4 +1,4 @@
-#include "shell"
+#include "shell.h"
 /**
  * env_builtin - Prints the current environment
  * Description: This function is responsible for
@@ -13,7 +13,7 @@ void env_builtin(void)
 
 	while (env[i])
 	{
-		write(STDOUT_FILENO, (const, void *) env[], _strlen(env[i]));
+		write(STDOUT_FILENO, (const void *) env[i], _strlen(env[i]));
 		write(STDOUT_FILENO, "\n", 1);
 		i++;
 	}
